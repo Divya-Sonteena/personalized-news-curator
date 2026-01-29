@@ -1,5 +1,18 @@
-﻿backend/venv/
-node_modules/
-.env
+﻿# Python
+backend/venv/
 __pycache__/
 *.pyc
+.env
+
+# ML artifacts
+backend/data_news_rl_v2/*.npy
+
+# Node
+frontend/node_modules/
+
+# Media
+*.mp4
+
+# OS
+.DS_Store
+Thumbs.db
